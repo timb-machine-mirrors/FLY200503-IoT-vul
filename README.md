@@ -10,7 +10,7 @@ Due to the lack of data length restrictions of the username_3g parameter in func
 
 function call chain Main()->start3g_main()->config_3g_para().
 
-![1.png](/Users/fly/Desktop/img/1.png)
+![1.png](img/1.png)
 
 #### Payload  有效载荷
 
@@ -39,7 +39,7 @@ wan_proto=5&submit_button=wan_3g&change_action=&action=Apply&wan_dns_enable=0&au
 
 Due to the lack of data length restrictions of the password_3g parameter in function config_3g_para, a buffer overflow vulnerability is created.
 
-![2.png](/Users/fly/Desktop/img/2.png)
+![2.png](img/2.png)
 
 
 
