@@ -1,6 +1,12 @@
 # ToTolink N200RE V9.3.5u.5812-B20200414 setOpModeCfg command injection
 
-Vulnerability description: ToTolink N200RE V9.3.5u was found to have a command injection at /cgi-bin/cstecgi.cgi through hostname parameters.
+Vulnerability description: ToTolink N200RE V9.3.5u.5812-B20200414 was found to have a command injection at /cgi-bin/cstecgi.cgi through hostname parameters.
+
+Scope of vulnerability impact
+
+1.V9.3.5u.6095_B20200916
+
+2.V9.3.5u.6139_B20201216
 
 ![1.png](img/1.jpg)
 
