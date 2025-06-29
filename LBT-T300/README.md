@@ -12,7 +12,7 @@ function call chain Main()->start3g_main()->config_3g_para().
 
 ![1.png](img/1.png)
 
-#### Payload  有效载荷
+#### Payload
 
 ```http
 POST /apply.cgi HTTP/1.1
@@ -43,7 +43,7 @@ Due to the lack of data length restrictions of the password_3g parameter in func
 
 
 
-#### Payload 有效载荷
+#### Payload
 
 ```http
 POST /apply.cgi HTTP/1.1
