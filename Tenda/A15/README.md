@@ -14,13 +14,13 @@ I originally planned to hunt for vulnerabilities related to command injection, b
 
 In the TendaTelnet function, the value of lan_ip is first obtained from the configuration file, then all telnetd processes are killed, and a telnet service is opened for the router ip.
 
-![2.png](/Users/fly/Desktop/Tenda/A15/img/2.png)
+![2.png](./img/2.png)
 
 function call chain main()-->initWebs()-->formDefineTendDa()-->TendaTelnet()
 
 #### Payload
 
-![3.png](/Users/fly/Desktop/Tenda/A15/img/3.png)
+![3.png](./img/3.png)
 
 History is always astonishingly similar. 
 
